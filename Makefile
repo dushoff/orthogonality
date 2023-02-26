@@ -20,6 +20,7 @@ dropstuff:
 ######################################################################
 
 autopipeR = defined
+Sources += $(wildcard *.R)
 
 ## Machinery
 
