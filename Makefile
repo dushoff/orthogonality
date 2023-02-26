@@ -19,6 +19,14 @@ dropstuff:
 
 ######################################################################
 
+autopipeR = defined
+
+## Machinery
+
+scaling.Rout: scaling.R
+
+######################################################################
+
 ### Makestuff
 
 Sources += Makefile
@@ -34,7 +42,7 @@ makestuff/%.stamp:
 
 -include makestuff/os.mk
 
-## -include makestuff/pipeR.mk
+-include makestuff/pipeR.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
