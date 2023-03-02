@@ -22,6 +22,11 @@ sm <- matrix(
 	, nrow=3, byrow=TRUE
 )
 
+print(sm)
+smInv <- solve(sm)
+print(smInv)
+
+sm %*% smInv
 
 ms <- model.matrix( ~ scale(x)+scale(y))
 

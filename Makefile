@@ -22,7 +22,7 @@ dropstuff:
 autopipeR = defined
 Sources += $(wildcard *.R)
 
-## Machinery
+######################################################################
 
 scaling.Rout: scaling.R
 
